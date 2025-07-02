@@ -25,7 +25,6 @@ console.log(ticketDiscountOver);
 if(yearsNum < minNum) {
 console.log("viene applicato uno sconto del 20% sul biglietto")
 const ticketMin = (ticketTot / rate) * ticketDiscountMin;
-console.log(ticketMin);
 const ticketPrice = ticketTot - ticketMin;
 console.log(ticketPrice);
 }
@@ -33,7 +32,6 @@ console.log(ticketPrice);
 else if(yearsNum >= overNum){
   console.log ("viene applicato uno sconto del 40% sul biglietto")
   const ticketOv = (ticketTot / rate) * ticketDiscountOver;
-  console.log(ticketOv);
   const ticketOvPrice = ticketTot - ticketOv;
   console.log(ticketOvPrice);
 }
