@@ -40,5 +40,5 @@ else if(yearsNum >= overNum){
 
 else {
 console.log("il biglietto non è soggetto ad alcuno sconto")
-console.log(ticketTot)
+console.log(ticketTot.toFixed(2))
 }
